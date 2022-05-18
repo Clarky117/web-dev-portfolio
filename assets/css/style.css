@@ -1,0 +1,27 @@
+/*body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+  }*/
+
+  /*playing with stuff i am not quite sure of*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    background-color: #000000;
+    color: rgb(111, 120, 158);
+  }
+
+.nav-list ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    text-decoration: none;
+  }
+
+.name {
+    font-size: 200%;
+}
