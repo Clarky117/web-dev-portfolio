@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -21,7 +21,7 @@
 /*using this temporarily as a template, will be edited
 as i progress with my portfolio*/
 
-  input, select, option, optgroup, textarea, button,
+  /* input, select, option, optgroup, textarea, button,
   pre, code {
     font-size: 100%;
     font-family: inherit;
@@ -29,4 +29,4 @@ as i progress with my portfolio*/
   
   ol, ul {
     list-style: none;
-  }
+  } */
