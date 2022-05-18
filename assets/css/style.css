@@ -47,3 +47,8 @@
     margin-left: 40px;   
     margin-right: 40px;
  }
+
+ /*fix margin bottom*/
+ .footer {
+     margin-top: 40px;
+ }
