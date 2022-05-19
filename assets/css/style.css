@@ -190,6 +190,7 @@ have been watching all use a starting universal tag */
 }
 
 .project-card:hover {
+    transition: ease 0.6s;
     transform: scale(1.1);
 }
 
