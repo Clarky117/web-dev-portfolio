@@ -113,11 +113,20 @@ have been watching all use a starting universal tag */
     margin-left: 38%;
 }
 
-button:hover {
+.hire-me-button:hover {
     background-color: transparent;
     border: 2px solid lightslategray;
     cursor: grab;
 }
+
+/* come back and tinker with colours and layout */
+
+/* trialling portfolio section */
+
+.project-one p {
+    text-align: center;
+}
+
 
 
 /* deleted a bunch of css code, going to attempt about
