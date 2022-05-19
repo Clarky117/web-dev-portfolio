@@ -17,6 +17,7 @@ have been watching all use a starting universal tag */
       background-color: lightslategray;
       position: sticky;
       top: 0;
+      z-index: 100;
 }
 
 .navigation ul {
@@ -44,6 +45,7 @@ have been watching all use a starting universal tag */
       background-color: white;
       color: black;
       box-shadow: 10 10 20px white;
+      cursor: grab;
 }
 
   /*above is updated navbar, this is my second version*/
@@ -123,8 +125,72 @@ have been watching all use a starting universal tag */
 
 /* trialling portfolio section */
 
-.project-one p {
+.portfolio {
+    background-color: slategrey;
+    width: 100%;
+    padding: 60px 10px;
+}
+
+.portfolio-header h2 {
+    color: white;
+    font-size: 80px;
+    width: auto;
+    margin: 20px auto;
     text-align: center;
+}
+
+.project-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.project-card {
+    height: 350px;
+    width: 400px;
+    padding: 20px 30px;
+    background-color: darkslategrey;
+    border-radius: 30px;
+    margin: 20px;
+    /* position: relative; */
+    text-align: center;
+}
+
+.project-card h5 {
+    color: white;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.project p {
+    color: black;
+    font-size: 1.1rem;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 70px;
+}
+
+.project .button {
+    background-color: lightslategrey;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 20px 40px;
+    border-radius: 30px;
+    transition: 0.6s;
+}
+
+.project .button:hover {
+    background-color: transparent;
+    border: 2px solid lightslategray;
+    cursor: not-allowed;
+}
+
+.project-card:hover {
+    transform: scale(1.1);
 }
 
 
