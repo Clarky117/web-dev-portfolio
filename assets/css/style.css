@@ -7,8 +7,7 @@ have been watching all use a starting universal tag */
       box-sizing: border-box;
   }
 
-  /* new header trial, seemed to get it to do what i
-   wanted */
+/* Navigation Header */
 
 .navigation {
       display: flex;
@@ -30,7 +29,6 @@ have been watching all use a starting universal tag */
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 1.2rem;
       font-weight: bold;
-      
 }
 
 .navigation ul li a{
@@ -44,13 +42,10 @@ have been watching all use a starting universal tag */
 .navigation ul li a:hover {
       background-color: white;
       color: black;
-      box-shadow: 10 10 20px white;
       cursor: grab;
 }
 
-  /*above is updated navbar, this is my second version*/
-
-  /* About me code below */
+/* About Me */
 
 .about-me {
       width: 100%;
@@ -123,7 +118,7 @@ have been watching all use a starting universal tag */
 
 /* come back and tinker with colours and layout */
 
-/* trialling portfolio section */
+/* Portfolio */
 
 .portfolio {
     background-color: slategrey;
@@ -136,6 +131,7 @@ have been watching all use a starting universal tag */
     font-size: 80px;
     width: auto;
     margin: 20px auto;
+    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -153,7 +149,6 @@ have been watching all use a starting universal tag */
     background-color: darkslategrey;
     border-radius: 30px;
     margin: 20px;
-    /* position: relative; */
     text-align: center;
 }
 
@@ -194,14 +189,72 @@ have been watching all use a starting universal tag */
     transform: scale(1.1);
 }
 
-/* adding css for contact me class */
+/* Adding Show Piece Project */
+
+.showpiece-project {
+    height: 500px;
+    width: 84%;
+    padding: 20px 30px;
+    background-color: darkslategrey;
+    border-radius: 30px;
+    margin: 20px;
+    text-align: center;
+}
+
+.showpiece-card h5 {
+    color: white;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 60px;
+}
+
+.showpiece-card > p {
+    color: black;
+    font-size: 1.1rem;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 70px;
+}
+
+.showpiece-card .button {
+    background-color: lightslategrey;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 20px 40px;
+    border-radius: 30px;
+    transition: 0.6s;
+}
+
+.showpiece-card .button:hover {
+    background-color: transparent;
+    border: 2px solid lightslategray;
+    cursor: not-allowed;
+}
+
+.showpiece-project:hover {
+    transition: ease 0.6s;
+    /* transform: scale(1.1); */
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+/* box shadow is from this site https://getcssscan.com/css-box-shadow-examples */
+
+.portfolio .showpiece-project {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Contact Me */
 
 .contact-me {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     background-color: darkslategrey;
-    /* color: slategray; */
     padding-top: 60px;
 }
 
@@ -223,7 +276,6 @@ have been watching all use a starting universal tag */
 
 #message {
     width: 40%;
-
 }
 
 #send {
@@ -243,8 +295,6 @@ have been watching all use a starting universal tag */
 label {
     color: white;
     font-size: 25px;
-    /* margin-top: 30px; */
-    /* margin-bottom: 30px; */
 }
 
 #send:hover {
@@ -253,27 +303,7 @@ label {
     cursor: grab;
 }
 
-/* deleted a bunch of css code, going to attempt about
-me section with a picture */
-
-.wrapper {
-    display: flex;
-    justify-content:center;
-}
-
-.box {
-    width:300px;
-    height:300px;
-    border:1px solid black;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 40px;   
-    margin-right: 40px;
- }
-
- /*fix margin bottom*/
-
-/* second attempt at footer */
+/* Footer */
 
  .footer {
     display: flex;

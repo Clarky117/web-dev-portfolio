@@ -10,28 +10,30 @@
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     </head>
 
+
+
 <body>
 
-<!-- new attempt at fixed header -->
+<!-- Section 1 - Navigation - Fixed Header -->
+<!-- Make more accessible to small screen -->
 
 <nav class="navigation">
     <ul>
         <li><a href="#">About Me</a></li>
         <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Services</a></li>
+        <!-- <li><a href="#">Services</a></li> -->
+        <!-- future section -->
         <li><a href="#">Contact Me</a></li>
     </ul>
 </nav>
 
-<!--sticky header seems to be working-->
+<!-- Section 2 - About Me - Flex Row, try media query column for small screens -->
 
-<!--got pic to work-->
-
-<section class="about-me">
-  <div class="main-section">
+<main class="about-me">
+  <section class="main-section">
     <img src="./assets/images/ProfilePicTwo.jpg">
         
-    <div class="text-section">   
+    <article class="text-section">   
             
             <h2>Web Developer</h2>
             <h5>In Developement</h5>
@@ -45,72 +47,92 @@
     
     <button class="hire-me-button" type="button">Hire Me</button>
 
-    </div>
-  </div>
-</section>
+    </article>
+  </section>
+</main>
 
-<!--adding portfolio code below-->
+<!-- Section 3 - Portfolio -->
 
 <!--  add larger first project tile -->
 
 
-
-<div class="portfolio">
+<main class="portfolio">
     
     <div class="portfolio-header">
         <h2>Portfolio</h2>
     </div>
 
-    <div class="project-box">
+<section class="showpiece-project">
+    
+    <article class="showpiece-card">
+        <h5>Main Project</h5>
+
+        <p>This is the work i am most proud of!</p>
+
+        <p>
+            <a class="button" href="#">Coming Soon</a>
+        </p>
+    </article>
+
+
+</section>
+    
+
+
+    <section class="project-box">
         
-        <div class="project-card">
-            <!-- insert small image here -->
-            
+        <article class="project-card">
+<!-- insert small image here -->
         <h5>Project 1</h5>
             <div class="project">
                 <p>We will be tasked with our first project in the later
                     stages of June, once completed i will have it available
                     for viewing here!</p>
+
                 <p>
             <a class="button" href="#">Coming Soon</a>
                 </p>
+
             </div>
-        </div>
+        </article>
 
 
-        <div class="project-card">
-        <!-- insert small image here -->
+        <article class="project-card">
+<!-- insert small image here -->
         <h5>Project 2</h5>
             <div class="project">
                 <p>Project 2 will be due for completion around August,
                     half way through our coding bootcamp!</p>
+
                 <p>     
             <a class="button" href="#">Coming Soon</a>
                 </p>
+
             </div>
-        </div>
+        </article>
 
 
-        <div class="project-card">
-        <!-- insert small image here -->
+        <article class="project-card">
+<!-- insert small image here -->
         <h5>Project 3</h5>
             <div class="project">
                 <p>Our final project will be our showcase for what we have
                     learnt from our time in the program. This will be ready
                     in November!</p>
+
                 <p>
             <a class="button" href="#">Coming Soon</a>
                 </p>
+
             </div>
-        </div>
+        </article>
     
-    
-    </div>
+    </section>
 
 
-</div>
+</main>
 
-<!-- new contact section going here -->
+<!-- Section 4 - Contact Section -->
 
 <section class="contact-me">
     
@@ -141,10 +163,6 @@
 
 </section>
 
-<!-- deleted a bunch of old code here, now working on footer -->
-
-
-
 <!--i want a footer with a message thanks for visitting-->
 
 <footer class="footer">
@@ -153,16 +171,6 @@
 
 <!-- add attributions in the footer -->
 
-<!-- can probably clean about-me section code to aid in responsive design -->
-
-
-
-
-
-
-
 </body>
-
-
 
 </html>
