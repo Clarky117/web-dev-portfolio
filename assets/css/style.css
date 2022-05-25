@@ -199,6 +199,9 @@ have been watching all use a starting universal tag */
     border-radius: 30px;
     margin: 20px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .showpiece-card h5 {
