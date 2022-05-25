@@ -80,7 +80,8 @@ have been watching all use a starting universal tag */
 }
 
 .text-section h5 {
-    color: white;
+    /* color: white; */
+    color: wheat;
     letter-spacing: 2px;
     font-size: 30px;
     margin-bottom: 40px;
@@ -91,6 +92,7 @@ have been watching all use a starting universal tag */
 
 .text-section p {
     color: black;
+    /* color: #F7CAC9; */
     letter-spacing: 1px;
     line-height: 20px;
     font-size: 1.1rem;
@@ -322,3 +324,79 @@ label {
      font-size: 20px;
      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  }
+
+
+
+ /* Attempting Responsive Design */
+
+ /* tablets */
+ @media screen and (max-width: 992px) {
+    .navigation {
+        position: static;
+        flex-wrap: wrap;
+    }
+
+    .navigation ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navigation ul li {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .main-section {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .hire-me-button {
+        margin-bottom: 40px;
+    }
+
+    .about-me-img {
+        max-width: 90%;
+        height: auto;
+    }
+
+
+
+    .about-me {
+
+    }
+
+    .portfolio {
+
+    }
+}
+  
+  /* large smartphones */
+  @media screen and (max-width: 768px) {
+    .navigation {
+      
+    }
+
+    .about-me {
+
+    }
+
+    .portfolio {
+
+    }
+  }
+  
+  /* small smartphones */
+  @media screen and (max-width: 576px) {
+    .navigation {
+    }
+
+    .about-me {
+
+    }
+
+    .portfolio {
+
+    }
+  }
