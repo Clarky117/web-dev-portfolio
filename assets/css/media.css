@@ -1,31 +1,21 @@
 @media screen and (max-width: 1090px) {
     .showpiece-project .button {
-        background-color: lightslategrey;
-        color: white;
-        text-decoration: none;
         border: 1px solid transparent;
-        /* font-weight: bold; */
         padding: 10px 10px;
-        border-radius: 30px;
-        transition: 0.6s;
     }
 
     .project .button {
-        background-color: lightslategrey;
-        color: white;
-        text-decoration: none;
         border: 1px solid transparent;
-        /* font-weight: bold; */
         padding: 10px 10px;
-        border-radius: 30px;
-        transition: 0.6s;
     }
 }
 
- /* tablets and smaller */
+ 
 
- /* Navigation */
- @media screen and (max-width: 992px) {
+/* tablets and smaller */
+
+/* Navigation */
+@media screen and (max-width: 992px) {
     .navigation {
         position: static;
         flex-wrap: wrap;
@@ -76,14 +66,8 @@
     }
 
     .showpiece-project .button {
-        background-color: lightslategrey;
-        color: white;
-        text-decoration: none;
         border: 1px solid transparent;
-        /* font-weight: bold; */
         padding: 2px 2px;
-        border-radius: 30px;
-        transition: 0.6s;
     }
 
 /* Project Cards */
@@ -107,6 +91,8 @@
     }
 }
 
+
+
 /* large smartphones */
 @media screen and (max-width: 768px) {   
     .showpiece-project img {
@@ -118,25 +104,17 @@
     }
 
     .project .button {
-        background-color: lightslategrey;
-        color: white;
-        text-decoration: none;
         border: 1px solid transparent;
-        /* font-weight: bold; */
         padding: 10px 10px;
-        border-radius: 30px;
-        transition: 0.6s;
     }
     
     .showpiece-project .button {
-        background-color: lightslategrey;
-        color: white;
-        text-decoration: none;
         border: 1px solid transparent;
-        /* font-weight: bold; */
         padding: 10px 10px;
-        border-radius: 30px;
-        transition: 0.6s;
+    }
+
+    .showpiece-card h5 {
+        font-size: 50px;
     }
 }
   
@@ -144,26 +122,14 @@
 
 @media screen and (max-width: 480px) {
     .project .button {
-        background-color: lightslategrey;
-        color: white;
-        text-decoration: none;
         border: 1px solid transparent;
-        /* font-weight: bold; */
         padding: 2px 2px;
-        border-radius: 30px;
-        transition: 0.6s;
     }
 }
 
 @media screen and (max-width: 380px) {
     .showpiece-project .button {
-        background-color: lightslategrey;
-        color: white;
-        text-decoration: none;
         border: 1px solid transparent;
-        /* font-weight: bold; */
         padding: 2px 2px;
-        border-radius: 30px;
-        transition: 0.6s;
     }
 }

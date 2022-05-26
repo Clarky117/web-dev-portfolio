@@ -44,7 +44,13 @@ Here is a few pics of me inspecting the elements to make sure i have made the si
 
 <br><br>
 
+## Things i want to work on
+
+Having now coded this full site, and as Jain said to me in tutoring, having common attributes is helpful. This is an area i now feel i can do better on in future, and something i want to better myself in. I have not included a helper.css class, but after a lot of searching through my own code i now understand its importance. I feel like i will be able to code a future website from the ground up using this principal, instead of tackling one section at a time and giving them unique attributes.
+
+<br><br>
+
 ## Links to Repository and Deployed Site
 
-- Repository - 
-- Live URL - 
+- Repository - https://github.com/Clarky117/web-dev-portfolio.git
+- Live URL - https://clarky117.github.io/web-dev-portfolio/
