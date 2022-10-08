@@ -1,6 +1,6 @@
 # Web Developer Portfolio
 
-In week 2 of the UWA coding bootcamp we have been asked to create our own portfolio page to use as the framework to add future projects to.
+A quick attempt at a mock up of a portfolio page to use as the framework to add future projects to. This was a fun idea however the layout did not make it to my final design.
 
 <br><br>
 
